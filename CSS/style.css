@@ -1,0 +1,23 @@
+
+header ul{list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+    align-items: center;
+    font-size: 36px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-work{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+}
