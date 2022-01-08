@@ -1,0 +1,72 @@
+*{font-family: Trattatello, fantasy}
+
+
+
+header {
+    align-items:center;
+    font-size: 36px;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: space-between;
+    height: 50 px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url('Assets\images\download.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    padding: 60px;
+}
+
+.headings {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.align-right {
+    float: right;
+  
+}
+
+.headings h2 {
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.divider {
+    background-image: url('CSS\images\background.png');
+    background-size: cover;
+    height: 200px;
+    border-bottom: solid 3px rosybrown;
+    display: flex;
+}
+
+a {
+color: rosybrown
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: purple;
+}
+
+.contact-form {
+    padding: 50px 100px 50px 100px;
+}
