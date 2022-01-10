@@ -1,4 +1,5 @@
-*{font-family: Trattatello, fantasy}
+*{font-family: Trattatello, fantasy
+}
 
 
 
@@ -8,12 +9,12 @@ header {
     display: flex;
     flex-wrap:wrap;
     align-content: space-between;
-    height: 50 px;
+    height: 30 px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url('Assets\images\download.png');
-    background-size: cover;
+    background-image: url('../images/221870.jpg');
+    background-size:cover;
     background-position: center;
     
 }
@@ -47,12 +48,27 @@ header ul li{
     text-align: center;
 }
 
+.image {
+    height:300px;
+}
+
+
 .divider {
-    background-image: url('CSS\images\background.png');
-    background-size: cover;
-    height: 200px;
+    background-image: url('../images/border 3.jfif');
+    background-size: contain;
+    height: 50px;
     border-bottom: solid 3px rosybrown;
     display: flex;
+    
+}
+
+.headings { background-color:rgb(173, 119, 2)
+
+}
+
+.about-me {
+    display:inline-block;
+    background-color:rgb(173, 119, 2)
 }
 
 a {
@@ -60,11 +76,11 @@ color: rosybrown
 }
 
 a:visited {
-    color: brown;
+    color: beige;
 }
 
 a:hover {
-    color: purple;
+    color:chocolate
 }
 
 .contact-form {
