@@ -9,7 +9,7 @@ header {
     display: flex;
     flex-wrap:wrap;
     align-content: space-between;
-    height: 30 px;
+    height: 100px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -28,7 +28,10 @@ header ul {
 header ul li{
     list-style: none;
     display: inline;
-    padding: 60px;
+    padding-left: 400x;
+    padding-right: 300px;
+    text-align: center;
+    height: 100px;
 }
 
 .headings {
